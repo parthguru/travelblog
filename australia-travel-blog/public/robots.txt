@@ -1,0 +1,14 @@
+# Australia Travel Blog Robots.txt
+
+User-agent: *
+Allow: /
+
+# Don't allow bots to crawl admin area
+Disallow: /admin/
+Disallow: /api/
+
+# Don't allow bots to crawl search results
+Disallow: /search?
+
+# Sitemaps
+Sitemap: https://australiatravelblog.com/sitemap.xml 
